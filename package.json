@@ -1,0 +1,34 @@
+{
+  "name": "@telemetry-js/collector-osmem",
+  "version": "0.0.5",
+  "description": "Collect OS memory metrics",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@telemetry-js/match-metric-names": "^0.0.3",
+    "@telemetry-js/metric": "^0.1.2"
+  },
+  "devDependencies": {
+    "hallmark": "^3.1.0",
+    "proxyquire": "^2.1.0",
+    "standard": "^14.3.4",
+    "tape": "^4.9.1"
+  },
+  "repository": "telemetry-js/collector-osmem",
+  "bugs": "https://github.com/telemetry-js/collector-osmem/issues",
+  "homepage": "https://github.com/telemetry-js/collector-osmem",
+  "keywords": [
+    "metrics",
+    "measurements",
+    "telemetry"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}
